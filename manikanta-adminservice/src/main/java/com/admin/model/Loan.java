@@ -1,6 +1,5 @@
 package com.admin.model;
 
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -10,7 +9,6 @@ import javax.persistence.Table;
 public class Loan {
 	@Id
 	String customer_number;
-	@Id
 	String branch_id;
 	
 	int loan_amount;
