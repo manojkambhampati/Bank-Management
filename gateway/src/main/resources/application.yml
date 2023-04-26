@@ -1,0 +1,17 @@
+server:
+  port: 8088
+  
+spring:
+  application:
+    name: cloudgateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
+  security:
+    user:
+      name: manoj
+      password: 2828
